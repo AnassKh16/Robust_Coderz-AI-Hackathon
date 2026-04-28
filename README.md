@@ -13,7 +13,7 @@
 
 **[https://orbit-frontend-386700800834.asia-south1.run.app](https://orbit-frontend-386700800834.asia-south1.run.app)**
 
-**[https://orbit-two-bice.vercel.app/)**
+**https://orbit-two-bice.vercel.app/**
 
 ---
 
