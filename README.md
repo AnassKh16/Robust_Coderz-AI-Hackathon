@@ -144,9 +144,9 @@ Organized by **GDG on Campus, FAST NUCES CFD**
 
 | Role | Responsibility |
 |---|---|
-| Person 1 | Frontend & UI Design |
-| Person 2 | AI Logic & Gemini Prompts |
-| Person 3 | Backend, Firebase & Deployment |
+| Hamza Afzaal | Frontend & UI Design |
+| Shawal Hussain | AI Logic & Gemini Prompts |
+| Anass Khan | Backend, Firebase & Deployment |
 
 ---
 
@@ -167,6 +167,7 @@ Organized by **GDG on Campus, FAST NUCES CFD**
 ## 📊 Hackathon Submission
 
 **Problem addressed:** Operational and cognitive overhead for early-stage founding teams
+**Problem faced:** Ideally the AI works just its slow netwoking overhead is the problem due to which it takes too much time too respond. But we learned a lot form this hackathon!!!
 
 **AI component:** Google Gemini API powers all four core features — daily briefings, follow-up drafting, stack alert analysis, and natural language chat — making AI essential to every user interaction, not just a wrapper.
 
