@@ -308,7 +308,7 @@ Organized by **GDG on Campus, FAST NUCES CFD**
 
 | Tool | Purpose |
 |---|---|
-| Google Gemini API | Core AI engine for all features |
+| Groq API | Core AI engine for all features |
 | Google AI Studio | Prompt testing and iteration |
 | Firebase Firestore | Real-time database |
 | Firebase Auth | User authentication |
@@ -327,7 +327,7 @@ Organized by **GDG on Campus, FAST NUCES CFD**
 
 **Who it's for:** Early-stage startup founders (1-5 person teams)
 
-**How AI works:** Google Gemini API is essential to every feature — without it the app cannot generate briefings, draft emails, analyze stack changes, or answer chat questions. AI is not a wrapper here, it is the product.
+**How AI works:** Groq API is essential to every feature — without it the app cannot generate briefings, draft emails, analyze stack changes, or answer chat questions. AI is not a wrapper here, it is the product.
 
 **Cloud deployment:** ✅ Live on Google Cloud Run
 
