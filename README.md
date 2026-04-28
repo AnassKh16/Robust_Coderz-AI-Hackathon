@@ -40,11 +40,11 @@ This is the core of our submission. Every feature in Orbit is powered by Google 
 
 ### 1. 🧠 Google Gemini API (gemini-2.0-flash)
 
-Gemini is the AI brain behind all four features of Orbit.
+Groq is the AI brain behind all four features of Orbit.
 
 #### Daily Briefing Generation
 ```
-Model: gemini-2.0-flash
+Model: Llama-3.1-8b-instant
 Input: Founder's contacts, deadlines, stack alerts from Firestore
 Output: Prioritized 5-point morning briefing
 Why Gemini: Fast inference, understands context across 
@@ -53,7 +53,7 @@ Why Gemini: Fast inference, understands context across
 
 #### Follow-up Email Drafting
 ```
-Model: gemini-2.0-flash
+Model: Llama-3.1-8b-instant
 Input: Contact name, role, last conversation notes, days since contact
 Output: Personalized follow-up email draft (under 5 lines)
 Why Gemini: Natural language generation that matches 
@@ -62,7 +62,7 @@ Why Gemini: Natural language generation that matches
 
 #### Stack Alert Analysis
 ```
-Model: gemini-2.0-flash
+Model: Llama-3.1-8b-instant
 Input: Founder's tech stack + latest AI/tool news
 Output: Filtered alerts relevant ONLY to their stack + action recommendation
 Why Gemini: Reasoning capability to filter noise and 
@@ -71,14 +71,14 @@ Why Gemini: Reasoning capability to filter noise and
 
 #### AI Chat (Ask Orbit)
 ```
-Model: gemini-2.0-flash
+Model: Llama-3.1-8b-instant
 Input: Founder's question + their full data context
 Output: Direct answer from their own data
 Why Gemini: Grounded responses — answers from founder's 
             data, not generic internet knowledge
 ```
 
-**Code Example — How We Call Gemini:**
+**Code Example — How We Call Groq:**
 ```javascript
 const response = await fetch(
   `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`,
@@ -191,8 +191,8 @@ Why AI Studio: Fastest way to test prompts
 │         │                                        │
 │         ▼                                        │
 │  ┌─────────────┐    ┌─────────────────────────┐  │
-│  │  Firebase   │    │     Gemini AI API       │  │
-│  │  Firestore  │───▶│   gemini-2.0-flash      │  │
+│  │  Firebase   │    │     Groq AI API         │  │
+│  │  Firestore  │───▶│  Llama-3.1-8b-instant  │  │
 │  │  (Database) │    │                         │  │
 │  └─────────────┘    │  • Daily Briefing       │  │
 │         │           │  • Follow-up Drafts     │  │
@@ -223,10 +223,10 @@ Why AI Studio: Fastest way to test prompts
 
 | Feature | Google AI Used |
 |---|---|
-| 📋 Daily Briefing | Gemini API + Firestore |
-| 📡 Follow-up Manager | Gemini API + Firestore |
-| 🛰️ Stack Monitor | Gemini API + Firestore |
-| 💬 Ask Orbit Chat | Gemini API + Firestore |
+| 📋 Daily Briefing | Groq API + Firestore |
+| 📡 Follow-up Manager | Groq API + Firestore |
+| 🛰️ Stack Monitor | Groq API + Firestore |
+| 💬 Ask Orbit Chat | Groq API + Firestore |
 | 🔐 Login | Firebase Auth (Google OAuth) |
 | ☁️ Hosting | Cloud Run + Cloud Build |
 
