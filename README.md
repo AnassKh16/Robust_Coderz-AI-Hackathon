@@ -236,7 +236,7 @@ Why AI Studio: Fastest way to test prompts
 
 | Layer | Technology |
 |---|---|
-| AI Model | Google Gemini 2.0 Flash |
+| AI Model | Groq Llama-3.1-8b-instant |
 | Prompt Testing | Google AI Studio |
 | Database | Firebase Firestore |
 | Authentication | Firebase Auth |
